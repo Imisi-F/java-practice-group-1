@@ -58,6 +58,6 @@ public class Library {
 
     @Override
     public String toString() {
-        return "Name: " + name + " Location: " + location + " Size: " + size + books;
+        return "Name: " + name + " Location: " + location + " Size: " + size + " Books: " + books;
     }
 }

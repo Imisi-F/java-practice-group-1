@@ -6,6 +6,8 @@ import java.util.Arrays;
 
 public class TestBooks {
     public static void main(String[] args) {
+        ArrayList<Book> books = new ArrayList<>();
+        Library l1 = new Library("National Library", "Canada", 2000, books);
         String[] author1 = {"JK Rowling"};
         Book book1 = new Book("Harry Potter", author1, 21.50);
         String[] author2 = {"William Shakespeare"};
@@ -13,9 +15,12 @@ public class TestBooks {
         String[] author3 = {"Jack Sparrow", "Will Turner"};
         Book book3 = new Book("Pirates", author3, 109);
 
-        Book[] Books = {book1,book2,book3};
-        for (Book b : Books) {
-            System.out.println(b.toString());
-        }
+        books.add(book1);
+        books.add(book2);
+        books.add(book3);
+        System.out.println(l1);
+//        for (Book b : books) {
+//            System.out.println(b.toString());
+//        }
     }
 }
