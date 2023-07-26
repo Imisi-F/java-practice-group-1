@@ -1,6 +1,6 @@
-package qa.interfaces;
+package com.qa.interfaces;
 
-import inheritance.Point;
+import com.qa.inheritance.Point;
 
 public interface Movable {
          public Point getCurrentLocation();

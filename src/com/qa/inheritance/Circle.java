@@ -1,6 +1,6 @@
-package inheritance;
+package com.qa.inheritance;
 
-import qa.interfaces.Movable;
+import com.qa.interfaces.Movable;
 
 public class Circle extends Shape implements Movable {
     private double radius;

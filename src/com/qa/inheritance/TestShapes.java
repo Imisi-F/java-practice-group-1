@@ -1,4 +1,4 @@
-package inheritance;
+package com.qa.inheritance;
 
 public class TestShapes {
     public static void main(String[] args) {

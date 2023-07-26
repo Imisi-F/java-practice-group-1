@@ -1,4 +1,4 @@
-package inheritance;
+package com.qa.inheritance;
 
 public class Point {
     private double x, y;

@@ -1,4 +1,4 @@
-package inheritance;
+package com.qa.inheritance;
 
 public abstract class Shape {
     private String name;
